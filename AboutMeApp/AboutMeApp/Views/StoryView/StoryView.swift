@@ -14,14 +14,11 @@ struct StoryView: View {
                 .font(.largeTitle)
                 .fontWeight(.bold)
                 .padding()
-            
-            ScrollView {
-                Text(information.story)
-                    .font(.body)
-                    .padding()
+            NavigationStack {
+                StoryPageView(story: story, pageIndex: 0)
             }
         }
-        .padding([.top, .bottom], 50)
+        .navigationTitle("My Story")
     }
 }
 
