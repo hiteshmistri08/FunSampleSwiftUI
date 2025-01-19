@@ -42,12 +42,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6766B6E62D3CB34C00D048DD /* Model */ = {
+		6766B6E62D3CB34C00D048DD /* Data */ = {
 			isa = PBXGroup;
 			children = (
 				6766B6E72D3CB35E00D048DD /* Data.swift */,
 			);
-			path = Model;
+			path = Data;
 			sourceTree = "<group>";
 		};
 		67B168772D3B7B2B003812B9 = {
@@ -71,7 +71,7 @@
 			children = (
 				67B168832D3B7B2B003812B9 /* AboutMeAppApp.swift */,
 				67B168852D3B7B2B003812B9 /* ContentView.swift */,
-				6766B6E62D3CB34C00D048DD /* Model */,
+				6766B6E62D3CB34C00D048DD /* Data */,
 				67B168912D3B7C03003812B9 /* Views */,
 				67B168872D3B7B2F003812B9 /* Assets.xcassets */,
 				67B168892D3B7B2F003812B9 /* Preview Content */,
