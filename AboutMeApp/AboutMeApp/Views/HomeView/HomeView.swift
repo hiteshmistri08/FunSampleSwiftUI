@@ -9,7 +9,23 @@ import SwiftUI
 
 struct HomeView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Text("All About")
+                .font(.largeTitle)
+                .fontWeight(.bold)
+                .padding()
+            
+            Image(systemName: "placeholdertext.fill")
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+                .cornerRadius(10)
+                .padding(40)
+            
+            Text(information.name)
+                .font(.title)
+        }
+        .padding()
+        
     }
 }
 
