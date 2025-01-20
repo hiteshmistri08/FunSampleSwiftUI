@@ -17,6 +17,7 @@
 		677EC4332D3EA930009BD018 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 677EC4322D3EA930009BD018 /* Preview Assets.xcassets */; };
 		677EC4392D3EAA07009BD018 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677EC4382D3EAA07009BD018 /* Event.swift */; };
 		677EC43B2D3EAA64009BD018 /* EventTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677EC43A2D3EAA64009BD018 /* EventTask.swift */; };
+		677EC43D2D3EAE2F009BD018 /* EventSymbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677EC43C2D3EAE2F009BD018 /* EventSymbols.swift */; };
 		67B168842D3B7B2B003812B9 /* AboutMeAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B168832D3B7B2B003812B9 /* AboutMeAppApp.swift */; };
 		67B168862D3B7B2B003812B9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B168852D3B7B2B003812B9 /* ContentView.swift */; };
 		67B168882D3B7B2F003812B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67B168872D3B7B2F003812B9 /* Assets.xcassets */; };
@@ -39,6 +40,7 @@
 		677EC4322D3EA930009BD018 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		677EC4382D3EAA07009BD018 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		677EC43A2D3EAA64009BD018 /* EventTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventTask.swift; sourceTree = "<group>"; };
+		677EC43C2D3EAE2F009BD018 /* EventSymbols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventSymbols.swift; sourceTree = "<group>"; };
 		67B168802D3B7B2B003812B9 /* AboutMeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AboutMeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67B168832D3B7B2B003812B9 /* AboutMeAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMeAppApp.swift; sourceTree = "<group>"; };
 		67B168852D3B7B2B003812B9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				677EC4382D3EAA07009BD018 /* Event.swift */,
+				677EC43C2D3EAE2F009BD018 /* EventSymbols.swift */,
 				677EC43A2D3EAA64009BD018 /* EventTask.swift */,
 			);
 			path = Model;
@@ -299,6 +302,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				677EC42E2D3EA92C009BD018 /* ContentView.swift in Sources */,
+				677EC43D2D3EAE2F009BD018 /* EventSymbols.swift in Sources */,
 				677EC4392D3EAA07009BD018 /* Event.swift in Sources */,
 				677EC42C2D3EA92C009BD018 /* DatePlannerAppApp.swift in Sources */,
 				677EC43B2D3EAA64009BD018 /* EventTask.swift in Sources */,
