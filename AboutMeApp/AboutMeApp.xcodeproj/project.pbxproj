@@ -11,6 +11,10 @@
 		6766B6EA2D3CDA1600D048DD /* MyStory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6766B6E92D3CDA1600D048DD /* MyStory.swift */; };
 		6766B6ED2D3CDA8200D048DD /* StoryModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6766B6EC2D3CDA8200D048DD /* StoryModels.swift */; };
 		6766B6EF2D3CDBA800D048DD /* StoryPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6766B6EE2D3CDBA800D048DD /* StoryPageView.swift */; };
+		677EC42C2D3EA92C009BD018 /* DatePlannerAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677EC42B2D3EA92C009BD018 /* DatePlannerAppApp.swift */; };
+		677EC42E2D3EA92C009BD018 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677EC42D2D3EA92C009BD018 /* ContentView.swift */; };
+		677EC4302D3EA930009BD018 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 677EC42F2D3EA930009BD018 /* Assets.xcassets */; };
+		677EC4332D3EA930009BD018 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 677EC4322D3EA930009BD018 /* Preview Assets.xcassets */; };
 		67B168842D3B7B2B003812B9 /* AboutMeAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B168832D3B7B2B003812B9 /* AboutMeAppApp.swift */; };
 		67B168862D3B7B2B003812B9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B168852D3B7B2B003812B9 /* ContentView.swift */; };
 		67B168882D3B7B2F003812B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67B168872D3B7B2F003812B9 /* Assets.xcassets */; };
@@ -26,6 +30,11 @@
 		6766B6E92D3CDA1600D048DD /* MyStory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyStory.swift; sourceTree = "<group>"; };
 		6766B6EC2D3CDA8200D048DD /* StoryModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryModels.swift; sourceTree = "<group>"; };
 		6766B6EE2D3CDBA800D048DD /* StoryPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryPageView.swift; sourceTree = "<group>"; };
+		677EC4292D3EA92C009BD018 /* DatePlannerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DatePlannerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		677EC42B2D3EA92C009BD018 /* DatePlannerAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePlannerAppApp.swift; sourceTree = "<group>"; };
+		677EC42D2D3EA92C009BD018 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		677EC42F2D3EA930009BD018 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		677EC4322D3EA930009BD018 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		67B168802D3B7B2B003812B9 /* AboutMeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AboutMeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67B168832D3B7B2B003812B9 /* AboutMeAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMeAppApp.swift; sourceTree = "<group>"; };
 		67B168852D3B7B2B003812B9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -38,6 +47,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		677EC4262D3EA92C009BD018 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		67B1687D2D3B7B2B003812B9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -65,10 +81,30 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		677EC42A2D3EA92C009BD018 /* DatePlannerApp */ = {
+			isa = PBXGroup;
+			children = (
+				677EC42B2D3EA92C009BD018 /* DatePlannerAppApp.swift */,
+				677EC42D2D3EA92C009BD018 /* ContentView.swift */,
+				677EC42F2D3EA930009BD018 /* Assets.xcassets */,
+				677EC4312D3EA930009BD018 /* Preview Content */,
+			);
+			path = DatePlannerApp;
+			sourceTree = "<group>";
+		};
+		677EC4312D3EA930009BD018 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				677EC4322D3EA930009BD018 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 		67B168772D3B7B2B003812B9 = {
 			isa = PBXGroup;
 			children = (
 				67B168822D3B7B2B003812B9 /* AboutMeApp */,
+				677EC42A2D3EA92C009BD018 /* DatePlannerApp */,
 				67B168812D3B7B2B003812B9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -77,6 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				67B168802D3B7B2B003812B9 /* AboutMeApp.app */,
+				677EC4292D3EA92C009BD018 /* DatePlannerApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -150,6 +187,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		677EC4282D3EA92C009BD018 /* DatePlannerApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 677EC4362D3EA930009BD018 /* Build configuration list for PBXNativeTarget "DatePlannerApp" */;
+			buildPhases = (
+				677EC4252D3EA92C009BD018 /* Sources */,
+				677EC4262D3EA92C009BD018 /* Frameworks */,
+				677EC4272D3EA92C009BD018 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DatePlannerApp;
+			productName = DatePlannerApp;
+			productReference = 677EC4292D3EA92C009BD018 /* DatePlannerApp.app */;
+			productType = "com.apple.product-type.application";
+		};
 		67B1687F2D3B7B2B003812B9 /* AboutMeApp */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 67B1688E2D3B7B2F003812B9 /* Build configuration list for PBXNativeTarget "AboutMeApp" */;
@@ -177,6 +231,9 @@
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
+					677EC4282D3EA92C009BD018 = {
+						CreatedOnToolsVersion = 14.2;
+					};
 					67B1687F2D3B7B2B003812B9 = {
 						CreatedOnToolsVersion = 14.2;
 					};
@@ -196,11 +253,21 @@
 			projectRoot = "";
 			targets = (
 				67B1687F2D3B7B2B003812B9 /* AboutMeApp */,
+				677EC4282D3EA92C009BD018 /* DatePlannerApp */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		677EC4272D3EA92C009BD018 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				677EC4332D3EA930009BD018 /* Preview Assets.xcassets in Resources */,
+				677EC4302D3EA930009BD018 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		67B1687E2D3B7B2B003812B9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -213,6 +280,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		677EC4252D3EA92C009BD018 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				677EC42E2D3EA92C009BD018 /* ContentView.swift in Sources */,
+				677EC42C2D3EA92C009BD018 /* DatePlannerAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		67B1687C2D3B7B2B003812B9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -233,6 +309,62 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		677EC4342D3EA930009BD018 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DatePlannerApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.DatePlannerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		677EC4352D3EA930009BD018 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DatePlannerApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.DatePlannerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		67B1688C2D3B7B2F003812B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -406,6 +538,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		677EC4362D3EA930009BD018 /* Build configuration list for PBXNativeTarget "DatePlannerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				677EC4342D3EA930009BD018 /* Debug */,
+				677EC4352D3EA930009BD018 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		67B1687B2D3B7B2B003812B9 /* Build configuration list for PBXProject "AboutMeApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
