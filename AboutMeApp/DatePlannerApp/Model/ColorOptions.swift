@@ -5,7 +5,7 @@
 //  Created by Hitesh on 20/01/25.
 //
 
-import Foundation
+import SwiftUI
 
 struct ColorOptions {
     static var all: [Color] = [
