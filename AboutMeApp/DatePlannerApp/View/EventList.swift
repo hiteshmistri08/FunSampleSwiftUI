@@ -41,6 +41,16 @@ struct EventList: View {
             }
         }
         .navigationTitle("Data Planner")
+        .toolbar {
+            ToolbarItem {
+                Button {
+                    newEvent = Event()
+                    isAddingNewEvent = true
+                } label: {
+                    Image(systemName: "plus")
+                }
+            }
+        }
     }
 }
 
