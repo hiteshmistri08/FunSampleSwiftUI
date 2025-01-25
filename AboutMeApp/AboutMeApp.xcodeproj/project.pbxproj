@@ -20,6 +20,9 @@
 		677EC43D2D3EAE2F009BD018 /* EventSymbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677EC43C2D3EAE2F009BD018 /* EventSymbols.swift */; };
 		677EC4402D3EAE7F009BD018 /* ColorOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677EC43F2D3EAE7F009BD018 /* ColorOptions.swift */; };
 		677EC4432D3EAF4C009BD018 /* EventData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677EC4422D3EAF4C009BD018 /* EventData.swift */; };
+		677EC4462D3EAFDC009BD018 /* EventRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677EC4452D3EAFDB009BD018 /* EventRow.swift */; };
+		67AFE5022D44A17000D9A55B /* SFSymbolStyling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67AFE5012D44A17000D9A55B /* SFSymbolStyling.swift */; };
+		67AFE5042D44A55300D9A55B /* EventList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67AFE5032D44A55300D9A55B /* EventList.swift */; };
 		67B168842D3B7B2B003812B9 /* AboutMeAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B168832D3B7B2B003812B9 /* AboutMeAppApp.swift */; };
 		67B168862D3B7B2B003812B9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B168852D3B7B2B003812B9 /* ContentView.swift */; };
 		67B168882D3B7B2F003812B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67B168872D3B7B2F003812B9 /* Assets.xcassets */; };
@@ -45,6 +48,9 @@
 		677EC43C2D3EAE2F009BD018 /* EventSymbols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventSymbols.swift; sourceTree = "<group>"; };
 		677EC43F2D3EAE7F009BD018 /* ColorOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorOptions.swift; sourceTree = "<group>"; };
 		677EC4422D3EAF4C009BD018 /* EventData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventData.swift; sourceTree = "<group>"; };
+		677EC4452D3EAFDB009BD018 /* EventRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventRow.swift; sourceTree = "<group>"; };
+		67AFE5012D44A17000D9A55B /* SFSymbolStyling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSymbolStyling.swift; sourceTree = "<group>"; };
+		67AFE5032D44A55300D9A55B /* EventList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventList.swift; sourceTree = "<group>"; };
 		67B168802D3B7B2B003812B9 /* AboutMeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AboutMeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67B168832D3B7B2B003812B9 /* AboutMeAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMeAppApp.swift; sourceTree = "<group>"; };
 		67B168852D3B7B2B003812B9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -96,6 +102,7 @@
 			children = (
 				677EC42B2D3EA92C009BD018 /* DatePlannerAppApp.swift */,
 				677EC42D2D3EA92C009BD018 /* ContentView.swift */,
+				677EC4442D3EAFCD009BD018 /* View */,
 				677EC4412D3EAF3B009BD018 /* Data */,
 				677EC4372D3EA9EB009BD018 /* Model */,
 				677EC42F2D3EA930009BD018 /* Assets.xcassets */,
@@ -127,8 +134,18 @@
 			isa = PBXGroup;
 			children = (
 				677EC4422D3EAF4C009BD018 /* EventData.swift */,
+				67AFE5012D44A17000D9A55B /* SFSymbolStyling.swift */,
 			);
 			path = Data;
+			sourceTree = "<group>";
+		};
+		677EC4442D3EAFCD009BD018 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				677EC4452D3EAFDB009BD018 /* EventRow.swift */,
+				67AFE5032D44A55300D9A55B /* EventList.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		67B168772D3B7B2B003812B9 = {
@@ -315,12 +332,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				677EC4462D3EAFDC009BD018 /* EventRow.swift in Sources */,
 				677EC42E2D3EA92C009BD018 /* ContentView.swift in Sources */,
+				67AFE5022D44A17000D9A55B /* SFSymbolStyling.swift in Sources */,
 				677EC43D2D3EAE2F009BD018 /* EventSymbols.swift in Sources */,
 				677EC4432D3EAF4C009BD018 /* EventData.swift in Sources */,
 				677EC4402D3EAE7F009BD018 /* ColorOptions.swift in Sources */,
 				677EC4392D3EAA07009BD018 /* Event.swift in Sources */,
 				677EC42C2D3EA92C009BD018 /* DatePlannerAppApp.swift in Sources */,
+				67AFE5042D44A55300D9A55B /* EventList.swift in Sources */,
 				677EC43B2D3EAA64009BD018 /* EventTask.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
