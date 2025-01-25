@@ -15,7 +15,7 @@ struct EventRow: View {
                 .sfSymbolStyling()
                 .foregroundStyle(event.color)
                 
-            VStack {
+            VStack(alignment: .leading, spacing: 5) {
                 Text(event.title)
                     .fontWeight(.bold)
                 
